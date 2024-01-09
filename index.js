@@ -30,12 +30,12 @@ client.on("ready", async() => {
 
 //====================================== جميع الاكواد هنا ===================================================//
 
-let feedbackRoom = "1168644169028358296"
-let line = "https://media.discordapp.net/attachments/1132976423943028798/1186387784810897478/General_Progs_Line_GIF_18B3A4E.gif?ex=65aec039&is=659c4b39&hm=dd9ccb80110b94033774656370cc98427e5054472d67c5621bab37f44ceda13d&="
+let feedbackRoom = "" // ايدي روم الفيدباك - الاراء
+let line = "" // رابط الخط
 
-let suggestionRoom = "1168644291967602789"
+let suggestionRoom = "" // ايدي روم الاقتراحات
 
-let taxRoom = "1168647574106943600"
+let taxRoom = "" // ايدي روم الضريبة
 
 client.on("messageCreate" , async(message) => {
   if(message.author.bot)return;
@@ -86,4 +86,4 @@ client.on("messageCreate" , async(message) => {
 
 
 //===================================== جميع الاكواد هنا ====================================================//
-client.login("MTAzMTU3NzQ0MjQ5NTc3ODg0Ng.GaDMHi.a4m8ciyzhPW_9wVKRNU-YCLjU0G2GsQ_JXG50c"); // توكن البوت 
+client.login(""); // توكن البوت 
